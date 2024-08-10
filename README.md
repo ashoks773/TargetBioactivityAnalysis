@@ -21,5 +21,5 @@ Welcome to the Bioactivity Data Pipeline repository! This collection of scripts 
 ## Steps :writing_hand:
 > [!NOTE]
 > ## The pipeline has been divided into multiple steps
-> * **Step1** Use <code style="color : gold">Step1_Get_BioactivityData.ipynb</code> script to get the Bioactivity data IC50 (standard values) for each molecule of the respective target
+> * **Step1** Use **<span style="color:blue">Step1_Get_BioactivityData.ipynb</span>** script to get the Bioactivity data IC50 (standard values) for each molecule of the respective target.
 > * **Step2**
