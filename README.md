@@ -4,7 +4,7 @@ Welcome to the Bioactivity Data Pipeline repository! This collection of scripts 
 ## Requirements :+1:
 > [!TIP]
 > Start working with Google Colab or Jupyter Notebook! 
-> First, install the following packages using pip3 or pip:
+* First, install the following packages using pip3 or pip:
 `chembl_webresource_client`
 `pandas`
 `rdkit`
