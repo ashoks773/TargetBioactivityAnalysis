@@ -18,6 +18,7 @@ Welcome to the Bioactivity Data Pipeline repository! This collection of scripts 
 `tensorflow`
 > * Get PaDEL-Descriptor file: wget https://github.com/dataprofessor/bioinformatics/raw/master/padel.zip to compute Descriptors
 
+## Steps :+2:
 > [!NOTE]
 > ## The pipeline has been divided into multiple steps
 > * **Step1** Use <code style="color : gold">Step1_Get_BioactivityData.ipynb</code> script to get the Bioactivity data IC50 (standard values) for each molecule of the respective target
