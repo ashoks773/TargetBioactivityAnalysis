@@ -3,8 +3,8 @@ Welcome to the Bioactivity Data Pipeline repository! This collection of scripts 
 
 # Requirements :+1:
 > [!IMPORTANT]
-> Start working with Google Colab or Jupyter Notebook
-> You need to install the following packages:
+> Start working with Google Colab or Jupyter Notebook! 
+> First, install the following packages using pip3 or pip:
 `chembl_webresource_client`
 `pandas`
 `rdkit`
@@ -16,7 +16,6 @@ Welcome to the Bioactivity Data Pipeline repository! This collection of scripts 
 `lazypredict`
 `keras`
 `tensorflow`
-You can install these packages using pip3 or pip:
 > Get PaDEL-Descriptor file: wget https://github.com/dataprofessor/bioinformatics/raw/master/padel.zip to compute Descriptors
 
 ### The pipeline has been divided into multiple steps
