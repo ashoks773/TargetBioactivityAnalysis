@@ -21,5 +21,8 @@ Welcome to the Bioactivity Data Pipeline repository! This collection of scripts 
 ## Steps :writing_hand:
 > [!NOTE]
 > ## The pipeline has been divided into multiple steps
-> * **Step1** Use **<span style="color:blue">Step1_Get_BioactivityData.ipynb</span>** script to get the Bioactivity data IC50 (standard values) for each molecule of the respective target.
-> * **Step2**
+> * **Step1:** Use **<span style="color:blue">Step1_Get_BioactivityData.ipynb</span>** script to get the Bioactivity data IC50 (standard values) for each molecule of the respective target.
+> * **Step2:** Use **<span style="color:blue">Step2_TargetSpecificExploratory_Analysis.ipynb</span>** script
+> ** to compute molecular properties of the compounds for the target of interest (ex: TNF-alpha).
+> ** to check the distribution of these properties across compound activities
+> ** to convert IC50 standard values to pIC50 and then association of pIC50 with different properties
