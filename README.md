@@ -26,3 +26,7 @@ Welcome to the Bioactivity Data Pipeline repository! This collection of scripts 
 > ** to compute molecular properties of the compounds for the target of interest (ex: TNF-alpha).
 > ** to check the distribution of these properties across compound activities
 > ** to convert IC50 standard values to pIC50 and then association of pIC50 with different properties
+
+## Contact: :raised_back_of_hand:
+> [!IMPORTANT]
+> For any questions please contact: :point_left: Ashok K. Sharma; ashoks773@gmail.com 
