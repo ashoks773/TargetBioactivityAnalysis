@@ -26,6 +26,10 @@ Welcome to the Bioactivity Data Pipeline repository! This collection of scripts 
 > ** to compute molecular properties of the compounds for the target of interest (ex: TNF-alpha).
 > ** to check the distribution of these properties across compound activities
 > ** to convert IC50 standard values to pIC50 and then association of pIC50 with different properties
+> * **Step3:** Use **<span style="color:blue">Step3_Descriptors_Bioactivity_Association.ipynb</span>** script
+> ** to compute Descriptors of each compound for the target of interest (ex: TNF-alpha).
+> ** Exploratory analysis to check how well these descriptors separate the active and inactive compounds.
+> ** Check the importance of each descriptor!    
 
 ## Contact: :raised_back_of_hand:
 > [!IMPORTANT]
