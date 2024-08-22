@@ -35,6 +35,8 @@ Welcome to the Bioactivity Data Pipeline repository! This collection of scripts 
 
 # Run Bioactivity App
 Before running the Bioactivity app. Make sure you have all packages installed. The final model **TNFalpha_QSAR_model.pkl**  is saved in the model's folder. Make sure to change the location of model in the bioactivity_pred.py file. Create your working directory like this:
+## Project Directory Structure
+The project directory is organized as follows:
 /your_project_directory
 ├── bioactivity_pred.py
 ├── templates
