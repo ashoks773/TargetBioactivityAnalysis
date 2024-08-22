@@ -16,6 +16,7 @@ Welcome to the Bioactivity Data Pipeline repository! This collection of scripts 
 `lazypredict`
 `keras`
 `tensorflow`
+`flask'
 > * Get PaDEL-Descriptor file: wget https://github.com/dataprofessor/bioinformatics/raw/master/padel.zip to compute Descriptors
 
 ## Steps :writing_hand:
@@ -30,6 +31,19 @@ Welcome to the Bioactivity Data Pipeline repository! This collection of scripts 
 > ** to compute Descriptors and Fingerprints of each compound.
 > ** Exploratory analysis including **PCA** and **tSNE** to check how well the top features separate the classes.
 > ** Feature Importance Analysis; Classification for performance assessment and SHAP Analysis to interpret model predictions and understand feature contributions using SHAP values.
+> * **Step4:** use **<span style="color:blue">Step4_TNF-alpha_QSARmodel.ipynb</span>** script to generate QSAR model. Check the model's performance on the external dataset and then save the final model to be used by the **bioactivity_pred.py**!!
+
+# Run Bioactivity App
+Before running the Bioactivity app. Make sure you have all packages installed. The final model **TNFalpha_QSAR_model.pkl**  is saved in the model's folder. Make sure to change the location of model in the bioactivity_pred.py file. Create your working directory like this:
+/your_project_directory
+├── bioactivity_pred.py
+├── templates
+    └── index.html
+    └── prediciton.html
+  
+``` r
+python3.12 bioactivity_pred.py
+```
 
 ## Contact: :raised_back_of_hand:
 > [!IMPORTANT]
