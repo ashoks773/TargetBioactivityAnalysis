@@ -33,7 +33,7 @@ Welcome to the Bioactivity Data Pipeline repository! This collection of scripts 
 > ** Feature Importance Analysis; Classification for performance assessment and SHAP Analysis to interpret model predictions and understand feature contributions using SHAP values.
 > * **Step4:** use **<span style="color:blue">Step4_TNF-alpha_QSARmodel.ipynb</span>** script to generate QSAR model. Check the model's performance on the external dataset and then save the final model to be used by the **bioactivity_pred.py**!!
 
-# Run Bioactivity App
+# Run Bioactivity App :muscle:
 Before running the Bioactivity app. Make sure you have all packages installed. The final model **TNFalpha_QSAR_model.pkl**  is saved in the model's folder. Make sure to change the location of the model in the bioactivity_pred.py file. To run the bioactivity code, download and organize the folders as provided below
 ### To run the local bioactivity prediction web server.
 ``` r
