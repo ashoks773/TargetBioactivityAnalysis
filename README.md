@@ -38,8 +38,8 @@ Before running the Bioactivity app. Make sure you have all packages installed. T
 /your_project_directory
 ├── bioactivity_pred.py
 ├── templates
-    └── index.html
-    └── prediciton.html
+│ ├── index.html
+│ └── prediction.html
   
 ``` r
 python3.12 bioactivity_pred.py
