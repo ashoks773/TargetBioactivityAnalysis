@@ -50,4 +50,5 @@ python3.12 bioactivity_pred.py
 
 ## Contact: :raised_back_of_hand:
 > [!IMPORTANT]
+> This is an example project to predict bioactivity against TNF-alpha. Similar steps can be used to create target-specific models.
 > For any questions please contact: :point_right: Ashok K. Sharma; ashoks773@gmail.com 
