@@ -34,21 +34,18 @@ Welcome to the Bioactivity Data Pipeline repository! This collection of scripts 
 > * **Step4:** use **<span style="color:blue">Step4_TNF-alpha_QSARmodel.ipynb</span>** script to generate QSAR model. Check the model's performance on the external dataset and then save the final model to be used by the **bioactivity_pred.py**!!
 
 # Run Bioactivity App
-Before running the Bioactivity app. Make sure you have all packages installed. The final model **TNFalpha_QSAR_model.pkl**  is saved in the model's folder. Make sure to change the location of the model in the bioactivity_pred.py file. The project directory is organized as follows:
-/your_project_directory
-├── bioactivity_pred.py
-├── templates
-│ ├── index.html
-│ └── prediction.html
-
-
+Before running the Bioactivity app. Make sure you have all packages installed. The final model **TNFalpha_QSAR_model.pkl**  is saved in the model's folder. Make sure to change the location of the model in the bioactivity_pred.py file. To run the bioactivity code, download and organize the folders as provided below
+### To run the local bioactivity prediction web server.
 ``` r
 python3.12 bioactivity_pred.py
+
 /your_project_directory
 ├── bioactivity_pred.py
 ├── templates
 │ ├── index.html
 │ └── prediction.html
+├── models
+│ ├── TNFalpha_QSAR_model.pkl
 ```
 
 ## Contact: :raised_back_of_hand:
