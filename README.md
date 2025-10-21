@@ -19,7 +19,6 @@ Welcome to the Bioactivity Data Pipeline repository! This collection of scripts 
 > * Get PaDEL-Descriptor file: wget https://github.com/dataprofessor/bioinformatics/raw/master/padel.zip to compute Descriptors
 
 ## Steps
-> [!NOTE]
 > ## The pipeline has been divided into multiple steps
 > * **Step1:** Use **<span style="color:blue">Step1_Get_BioactivityData.ipynb</span>** script to get the Bioactivity data IC50 (standard values) for each molecule of the respective target.
 > * **Step2:** Use **<span style="color:blue">Step2_TargetSpecificExploratory_Analysis.ipynb</span>** script
@@ -48,6 +47,5 @@ python3.12 bioactivity_pred.py
 ```
 
 ## Contact: 
-> [!IMPORTANT]
 > This is an example project to predict bioactivity against TNF-alpha. Similar steps can be used to create target-specific models.
-> For any questions please contact: :point_right: Ashok K. Sharma; ashoks773@gmail.com 
+> For any questions please contact: :point_right: Ashok K. Sharma; compbiosharma@gmail.com
